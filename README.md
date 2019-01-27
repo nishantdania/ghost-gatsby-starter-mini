@@ -2,7 +2,8 @@
 
 A mini version of the original starter template to build lightning fast websites with [Ghost](https://ghost.org) & [Gatsby](https://gatsbyjs.org).
 
-Basically the [gatsby-starter-ghost](https://github.com/TryGhost/gatsby-starter-ghost) without the initial pages, components and any Netlify related files to provide a cleaner slate for building personal websites.
+I stripped out the CSS, custom components and any Netlify related files from [gatsby-starter-ghost](https://github.com/TryGhost/gatsby-starter-ghost).
+You only get a very basic index page and a basic posts page. The other pages can still be enabled as described in this documentation below.
 
 # Installing
 
@@ -46,6 +47,9 @@ gatsby serve
 ```
 
 Gatsby `develop` uses the `dev` config in `ghost.json` - while Gatsby `serve` uses the `production` config.
+
+# Enabling the Author, Tags and Page templates
+*WIP*
 
 # Copyright & License
 

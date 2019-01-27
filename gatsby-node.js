@@ -82,7 +82,6 @@ exports.createPages = ({ graphql, actions }) => {
 
     /**
     * Tags
-    */
     const createTags = new Promise((resolve, reject) => {
         const tagsTemplate = path.resolve(`./src/templates/tag.js`)
         resolve(
@@ -154,10 +153,10 @@ exports.createPages = ({ graphql, actions }) => {
             })
         )
     })
+    */
 
     /**
     * Authors
-    */
     const createAuthors = new Promise((resolve, reject) => {
         const authorTemplate = path.resolve(`./src/templates/author.js`)
         resolve(
@@ -228,10 +227,10 @@ exports.createPages = ({ graphql, actions }) => {
             })
         )
     })
+    */
 
     /**
     * Pages
-    */
     const createPages = new Promise((resolve, reject) => {
         const pageTemplate = path.resolve(`./src/templates/page.js`)
         resolve(
@@ -282,6 +281,9 @@ exports.createPages = ({ graphql, actions }) => {
             })
         )
     })
+    */
 
-    return Promise.all([createPosts, createTags, createAuthors, createPages])
+    // Please read the details in the README of this repository to use the tags, authors and pages templates 
+    // return Promise.all([createPosts, createTags, createAuthors, createPages])
+    return Promise.all([createPosts])
 }

@@ -48,8 +48,11 @@ gatsby serve
 
 Gatsby `develop` uses the `dev` config in `ghost.json` - while Gatsby `serve` uses the `production` config.
 
-# Enabling the Author, Tags and Page templates
-*WIP*
+# Site config
+Some config variables used for adding meta data can be defined in the `src/utils/siteConfig.js` file. 
+
+# Enabling the author, tags and page templates
+- Pending update
 
 # Copyright & License
 

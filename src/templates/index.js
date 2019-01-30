@@ -35,6 +35,9 @@ const Index = ({ data, location, pageContext }) => {
           </li>
         ))}
       </ul>
+      <div>
+        Project by <a href="https://nishantdania.com">Nishant Dania</a>
+      </div>
     </>
   )
 }

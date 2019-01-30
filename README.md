@@ -5,6 +5,10 @@ A mini version of the original starter template to build lightning fast websites
 I stripped out the CSS, custom components and any Netlify related files from [gatsby-starter-ghost](https://github.com/TryGhost/gatsby-starter-ghost).
 You only get a very basic index page and a basic posts page. The other pages can still be enabled as described in this documentation below.
 
+[**Demo**](http://ghost-gatsby-demo.nishantdania.com)
+
+![ghost-gatsby-starter-mini](https://user-images.githubusercontent.com/1717441/51982934-5936b380-24d2-11e9-9ac4-dc8e168a63a2.png)
+
 # Installing
 
 ```bash

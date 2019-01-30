@@ -19,6 +19,13 @@ const Index = ({ data, location, pageContext }) => {
     <>
       <MetaData location={location} />
       <h1>Ghost Gatsby Starter Mini</h1>
+      <a
+        href="https://github.com/nishantdania/ghost-gatsby-starter-mini"
+        target="_blank" rel="noopener"
+      >
+        View on Github
+      </a>
+      <h2>Posts: </h2>
       <ul>
         {posts.map((post) => (
           <li key={post.node.id}>

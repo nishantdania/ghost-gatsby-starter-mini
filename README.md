@@ -32,6 +32,9 @@ To use your own install, edit the `.ghost.json` config file with your credential
 
 Content API Keys are generally not considered to be sensitive information, they exist so that they can be changed in the event of abuse so most people commit it directly to their `ghost.json` config file. If you prefer to keep this information out of your repository you can remove this config and set [Netlify ENV variables](https://www.netlify.com/docs/continuous-deployment/#build-environment-variables) for production builds instead.
 
+# Open community page
+You can join the spectrum chat group for any questions around implementation to or maybe just for the sake of show and tell >> [Ghost Gatsby Spectrum](https://spectrum.chat/ghost-gatsby)
+
 # Optimising
 
 You can disable the default Ghost Handlebars Theme front-end by enabling the `Make this site private` flag within your Ghost settings. This enables password protection in front of the Ghost install and sets `<meta name="robots" content="noindex" />` so your Gatsby front-end becomes the source of truth for SEO.
@@ -52,7 +55,10 @@ Gatsby `develop` uses the `dev` config in `ghost.json` - while Gatsby `serve` us
 Some config variables used for adding meta data can be defined in the `src/utils/siteConfig.js` file. 
 
 # Enabling the author, tags and page templates
-- Pending update
+Please use this file from the gatsby-source-ghost project as a reference >> [gatsby-node.js](https://github.com/TryGhost/gatsby-starter-ghost/blob/master/gatsby-node.js)
+
+# Shoutout
+A huge shoutout to the Ghost team for getting the original version out. 
 
 # Copyright & License
 

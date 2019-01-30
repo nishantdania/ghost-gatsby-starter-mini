@@ -7,7 +7,7 @@ You only get a very basic index page and a basic posts page. The other pages can
 
 [**Demo**](http://ghost-gatsby-demo.nishantdania.com)
 
-![ghost-gatsby-starter-mini](https://user-images.githubusercontent.com/1717441/51982934-5936b380-24d2-11e9-9ac4-dc8e168a63a2.png)
+![ghost-gatsby-starter-mini](https://user-images.githubusercontent.com/1717441/51983987-2d68fd00-24d5-11e9-9123-db9f2ef8caeb.png)
 
 # Installing
 

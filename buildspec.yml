@@ -1,0 +1,9 @@
+version: 0.1
+phases:
+  install:
+    commands:
+    - npm install --global yarn 
+    - npm install --global gatsby-cli
+    - yarn 
+    - gatsby build
+    - aws s3 sync public s3://ghost-gatsby-demo.nishantdania.com --delete
